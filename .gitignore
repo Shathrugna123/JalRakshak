@@ -1,0 +1,15 @@
+@"
+.venv/
+__pycache__/
+*.py[cod]
+*.pt
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.m4a
+outputs/
+runs/
+.env
+data/
+"@ | Set-Content .gitignore
